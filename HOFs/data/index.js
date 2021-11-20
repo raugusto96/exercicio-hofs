@@ -21,6 +21,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['grass', 'poison'],
   },
   {
     id: 2,
@@ -44,6 +45,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['grass', 'poison'],
   },
   {
     id: 3,
@@ -67,6 +69,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['grass', 'poison'],
   },
   {
     id: 4,
@@ -90,6 +93,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['fire'],
   },
   {
     id: 5,
@@ -113,6 +117,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['fire'],
   },
   {
     id: 6,
@@ -136,6 +141,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['fire', 'flying'],
   },
   {
     id: 7,
@@ -159,6 +165,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['water'],
   },
   {
     id: 8,
@@ -182,6 +189,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['water'],
   },
   {
     id: 9,
@@ -205,6 +213,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['water'],
   },
   {
     id: 10,
@@ -228,6 +237,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['bug'],
   },
   {
     id: 11,
@@ -251,6 +261,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['bug'],
   },
   {
     id: 12,
@@ -274,6 +285,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['bug', 'flying'],
   },
   {
     id: 13,
@@ -297,6 +309,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['bug', 'poison'],
   },
   {
     id: 14,
@@ -320,6 +333,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['bug', 'poison'],
   },
   {
     id: 15,
@@ -343,6 +357,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['bug', 'poison'],
   },
   {
     id: 16,
@@ -366,6 +381,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['normal', 'flying'],
   },
   {
     id: 17,
@@ -389,6 +405,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['normal', 'flying'],
   },
   {
     id: 18,
@@ -412,6 +429,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['normal', 'flying'],
   },
   {
     id: 19,
@@ -435,6 +453,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['normal'],
   },
   {
     id: 20,
@@ -458,6 +477,7 @@ const pokemons = [
         },
       },
     ],
+    types: ['normal'],
   },
 ];
 

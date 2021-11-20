@@ -4,7 +4,7 @@
   A função averageWeight deve receber dois parametros, sendo o ids a serem pesquisados.
 
   Parametro:
-    id => Numero;
+    pokedex => array;
 
   Comportamento:
     averageWeight() // Retorno: undefined;
