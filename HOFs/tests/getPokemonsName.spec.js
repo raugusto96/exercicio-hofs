@@ -1,20 +1,18 @@
 /* eslint-disable no-undef */
 const data = require('../data');
-const getNames = require('../src/exercicio1');
+const getPokemonsName = require('../src/getPokemonsName');
 
 describe('Teste o funcionamento correto da função', () => {
-  it('se a função `getNames` existe', () => {
-    expect(getNames).toBeDefined();
+  it('se a função `getPokemonsName` existe', () => {
+    expect(getPokemonsName).toBeDefined();
   });
   it('se a função retorna `undefined` quando é chamada sem parametro', () => {
-    expect(getNames()).toBeUndefined();
+    expect(getPokemonsName()).toBeUndefined();
   });
   it('se a função retorna `undefined` quando é chamada com um parametro diferente do esperado', () => {
-    expect(getNames([])).toBeUndefined();
-    expect(getNames('xablau')).toBeUndefined();
-    expect(getNames({})).toBeUndefined();
-    expect(getNames(123)).toBeUndefined();
-    expect(getNames(true)).toBeUndefined();
+    expect(getPokemonsName('xablau')).toBeUndefined();
+    expect(getPokemonsName(123)).toBeUndefined();
+    expect(getPokemonsName(true)).toBeUndefined();
   });
   it('se a função retorna o valor correto quando recebe parametro', () => {
     const pokemonsArray = [
@@ -39,6 +37,6 @@ describe('Teste o funcionamento correto da função', () => {
       'Rattata',
       'Raticate',
     ];
-    expect(getNames(data)).toEqual(pokemonsArray);
+    expect(getPokemonsName(data)).toEqual(pokemonsArray);
   });
 });
