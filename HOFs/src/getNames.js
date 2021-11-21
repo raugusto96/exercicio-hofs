@@ -9,9 +9,10 @@
   Comportamento:
     averageWeight() // Retorno: undefined;
     averageWeight(pokedex) // Retorno: ['bulbasaur', 'ivysaur', 'venusaur', ...];
-    averageWeight('pokedex') // Retorno: undefined;
+    averageWeight('xablau') // Retorno: undefined;
+    averageWeight([]) // Retorno: undefined;
 */
 
-const averageWeight = () => {};
+const getNames = () => {};
 
-module.exports = averageWeight;
+module.exports = getNames;
