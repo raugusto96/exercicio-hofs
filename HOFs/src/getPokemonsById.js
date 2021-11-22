@@ -83,8 +83,9 @@ Complete a função para receber um ou mais parametros, esse parametro será res
     ];
 */
 
+const { pokemons } = require('../data');
 const pokedex = require('../data');
 
-const getPokemonsById = () => {};
+const getPokemonsById = (...ids) => pokedex.pokemons.filter((pokemon) => ids.includes(pokemon.id));
 
 module.exports = getPokemonsById;
