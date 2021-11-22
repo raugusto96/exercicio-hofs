@@ -18,3 +18,5 @@ describe('Teste o funcionamento correto da função `averageWeightPokemons`', ()
     expect(averageWeightPokemons(pokedex)).toBe(268.85);
   });
 });
+
+// Só pra mudar de branch e levar o arquivo

@@ -17,3 +17,4 @@ const averageWeightPokemons = (pokedex) => (
     : undefined);
 
 module.exports = averageWeightPokemons;
+// Só pra mudar de branch e levar o arquivo
