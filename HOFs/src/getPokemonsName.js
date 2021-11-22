@@ -4,7 +4,7 @@
   A função getPokemonsName deve receber um parametro, sendo a pokedex.
 
   Parametro:
-    pokedex => array;
+    pokedex => objeto;
 
   Comportamento:
     getPokemonsName() // Retorno: undefined;
@@ -12,6 +12,8 @@
     getPokemonsName('xablau') // Retorno: undefined;
 */
 
-const getPokemonsName = () => {};
+const getPokemonsName = (pokedex) => (
+  typeof pokedex === 'object' ? pokedex.pokemons.map((pokemon) => pokemon.name) : undefined
+);
 
 module.exports = getPokemonsName;
