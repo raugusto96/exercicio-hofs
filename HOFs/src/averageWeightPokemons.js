@@ -10,10 +10,6 @@
   averageWeightPokemons('xablau') // Retorna: undefined;
 */
 
-const averageWeightPokemons = (pokedex) => (
-  typeof pokedex === 'object'
-    ? pokedex.pokemons
-      .reduce((totalWeight, pokemon) => totalWeight + pokemon.weight, 0) / pokedex.pokemons.length
-    : undefined);
+const averageWeightPokemons = () => {};
 
 module.exports = averageWeightPokemons;
