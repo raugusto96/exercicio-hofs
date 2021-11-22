@@ -16,6 +16,10 @@
     getNamesByType(pokedex) // Retorno: undefined;
 */
 
-const getNamesByType = () => {};
+const getNamesByType = (pokedex, type) => (
+  typeof pokedex === 'object' && typeof type === 'string'
+    ? pokedex.pokemons.filter((pokemon) => pokemon.types.includes(type)).map((poke) => poke.name)
+    : undefined
+);
 
 module.exports = getNamesByType;
