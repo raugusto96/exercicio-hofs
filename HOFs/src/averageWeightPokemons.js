@@ -1,5 +1,6 @@
 /*
-  Complete a função para receber um parametro que é a pokedex, conte os animais desse tipo.
+  Complete a função para receber um parametro que é a pokedex, e deve retornar
+  a média de peso de todos os pokemons.
 
   Parametro:
   pokedex => object

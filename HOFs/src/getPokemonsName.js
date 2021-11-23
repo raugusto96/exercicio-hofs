@@ -4,7 +4,7 @@
   A função getPokemonsName deve receber um parametro, sendo a pokedex.
 
   Parametro:
-    pokedex => array;
+    pokedex => objeto;
 
   Comportamento:
     getPokemonsName() // Retorno: undefined;

@@ -1,5 +1,5 @@
 /*
-Complete a função para receber um ou mais parametros, esse parametro será responsável por buscar
+Complete a função para receber um parametro, esse parametro será responsável por buscar
   o pokemon referente ao id e retornar um array contendo os pokemons encontrados.
   Caso a pokedex não exista, retorne undefined.
   Parametro:
