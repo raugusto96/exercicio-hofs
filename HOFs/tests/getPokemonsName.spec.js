@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-const data = require('../data');
+const pokedex = require('../data');
 const getPokemonsName = require('../src/getPokemonsName');
 
 describe('Teste o funcionamento correto da função', () => {
@@ -37,6 +37,6 @@ describe('Teste o funcionamento correto da função', () => {
       'Rattata',
       'Raticate',
     ];
-    expect(getPokemonsName(data)).toEqual(pokemonsArray);
+    expect(getPokemonsName(pokedex)).toEqual(pokemonsArray);
   });
 });
